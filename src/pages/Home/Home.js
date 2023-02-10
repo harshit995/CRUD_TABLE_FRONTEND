@@ -99,7 +99,7 @@ const Home = () => {
                   aria-label="Search"
                   onChange={(e) => setSearch(e.target.value)}
                 />
-                <Button variant="success" className="search_btn">
+                <Button variant="danger" className="search_btn">
                   Search
                 </Button>
               </Form>
